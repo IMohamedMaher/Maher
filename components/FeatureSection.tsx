@@ -32,7 +32,8 @@ const FeatureSection: React.FC = () => {
           ))}
         </div>
       </div>
-      <style jsx>{`
+      {/* Removed 'jsx' prop as it's not a standard HTML attribute and causes a type error. */}
+      <style>{`
         @keyframes fadeIn {
           from { opacity: 0; }
           to { opacity: 1; }

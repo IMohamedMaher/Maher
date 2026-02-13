@@ -21,7 +21,8 @@ const CallToActionSection: React.FC = () => {
           {CALL_TO_ACTION_TEXT}
         </a>
       </div>
-      <style jsx>{`
+      {/* Removed 'jsx' prop as it's not a standard HTML attribute and causes a type error. */}
+      <style>{`
         @keyframes fadeInDown {
           from { opacity: 0; transform: translateY(-20px); }
           to { opacity: 1; transform: translateY(0); }
