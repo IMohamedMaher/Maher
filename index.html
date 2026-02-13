@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ماهر... موظف العيادة الذكي</title>
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            'whatsapp-green': '#25D366',
+            'whatsapp-light': '#DCF8C6',
+            'medical-blue': '#4A90E2',
+            'medical-light-blue': '#E0F2F7',
+            'medical-green': '#50C878',
+            'medical-light-green': '#EBF7EE',
+            'maher-primary': '#4A90E2', // A soothing primary blue
+            'maher-secondary': '#50C878', // A complementary green
+          },
+          fontFamily: {
+            'arabic': ['"Cairo"', 'sans-serif'], // Assuming Cairo is a good Arabic font
+          }
+        }
+      }
+    }
+  </script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://esm.sh/react@^19.2.4",
+    "react-dom/": "https://esm.sh/react-dom@^19.2.4/",
+    "react/": "https://esm.sh/react@^19.2.4/"
+  }
+}
+</script>
+</head>
+<body class="font-arabic bg-medical-light-blue">
+  <div id="root"></div>
+  <script type="module" src="/index.tsx"></script>
+</body>
+</html>
