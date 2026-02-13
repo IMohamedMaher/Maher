@@ -1,9 +1,9 @@
 
-export const APP_TITLE = "ماهر... موظف العيادة الذكي";
-export const HERO_HEADLINE = "ماهر... موظف العيادة الذكي شغال وإنت مرتاح!";
+export const APP_TITLE = "ماهر... مساعد العيادة الذكي";
+export const HERO_HEADLINE = "ماهر... مساعد العيادة الذكي شغال وإنت مرتاح!";
 export const HERO_SUBHEADLINE = "مساعدك الذكي على واتساب لعيادة منظمة، مرضى سعيدين، ومواعيد بلا غياب.";
 export const CALL_TO_ACTION_TEXT = "سيب التنظيم على ماهر... اتواصل دلوقتي!";
-export const CALL_TO_ACTION_LINK = "https://wa.me/XXXXXXXXXXX"; // Placeholder WhatsApp link
+export const CALL_TO_ACTION_LINK = "https://wa.me/+201223223463"; // Placeholder WhatsApp link
 
 export const BRANDING_SLOGANS = [
   "ماهر شغال",
